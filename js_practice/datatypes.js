@@ -5,7 +5,10 @@
 console.log(4+4)
 
 let name = "prasad"
+let oldAge 
 let age = 28
+console.log(oldAge);
+
 let isLoggedIn = false
 /*
 // number ->2 to power 53
