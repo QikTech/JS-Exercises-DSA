@@ -4,7 +4,7 @@ const repoCount = 50;
 // console.log(name + repoCount + ' Value');
 
 //STRING INTERPOLATION
-console.log('Hi my name is ${name} and my repo count is ${repocount}');
+console.log(`Hi my name is ${name} and my repo count is ${repocount}`);
 
 const gameName = new String('prasad-Sawant-com')
 
