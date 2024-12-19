@@ -56,8 +56,29 @@ const freshUser = [
 freshUser[1].age
 // console.log(appUser);
 
-console.log(Object.keys(appUser));
-console.log(Object.values(appUser));
-console.log(Object.entries(appUser));
+// console.log(Object.keys(appUser));
+// console.log(Object.values(appUser));
+// console.log(Object.entries(appUser));
 
-console.log(appUser.hasOwnProperty('isLoggedIn'));
+// console.log(appUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    courseName: "Learn Javascript",
+    price: "999",
+    courseInstructor: "Prassad"
+} 
+
+// course.courseInstructor
+
+// OBJECT DESTRUCTURING
+const {courseInstructor} = course
+const {courseInstructor: teacher} = course
+
+console.log(courseInstructor);
+console.log(teacher);
+
+{
+    "courseName": "Learn Javascript",
+    "price": "free",
+    "courseInstructor": "Prassad"
+}
