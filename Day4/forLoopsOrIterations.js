@@ -1,4 +1,5 @@
-// for
+// https://www.youtube.com/watch?v=Y1cpFsXrEgY&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=27&pp=iAQB
+// FOR LOOPS
 
 for (let i = 0; i <= 10; i++) {
     const element = i;
